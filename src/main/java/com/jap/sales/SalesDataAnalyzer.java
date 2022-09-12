@@ -11,18 +11,17 @@ import java.util.Comparator;
 import java.util.List;
 
 public class SalesDataAnalyzer {
-   public List<SalesRecord> readFile(String fileName) {
-       return null;
+    public List<SalesRecord> readFile(String fileName) {
+        return null;
     }
 
-    public List<SalesRecord> getAllCustomersSortedByPurchaseAmount(List<SalesRecord> salesData){
-      return null;
-    }
-    public SalesRecord getTopCustomerWhoSpentMaxTimeOnSite(List<SalesRecord> salesData){
-       return null;
+    public List<SalesRecord> getAllCustomersSortedByPurchaseAmount(List<SalesRecord> salesData) {
+        return null;
     }
 
-
+    public SalesRecord getTopCustomerWhoSpentMaxTimeOnSite(List<SalesRecord> salesData) {
+        return null;
+    }
 
 
 }

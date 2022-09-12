@@ -1,6 +1,6 @@
 package com.jap.sales;
 
-public class SalesRecord{
+public class SalesRecord {
 
     private String date;
     private int customer_id;
@@ -82,15 +82,7 @@ public class SalesRecord{
 
     @Override
     public String toString() {
-        return "SalesRecord{" +
-                "date=" + date +
-                ", customer_id=" + customer_id +
-                ", product_category=" + product_category +
-                ", payment_method='" + payment_method + '\'' +
-                ", amount=" + amount +
-                ", time_on_site=" + time_on_site +
-                ", clicks_in_site=" + clicks_in_site +
-                '}';
+        return "SalesRecord{" + "date=" + date + ", customer_id=" + customer_id + ", product_category=" + product_category + ", payment_method='" + payment_method + '\'' + ", amount=" + amount + ", time_on_site=" + time_on_site + ", clicks_in_site=" + clicks_in_site + '}';
     }
 
 
